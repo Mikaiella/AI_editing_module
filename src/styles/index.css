@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "El Messiri", sans-serif;
+}
+
+body {
+  background-color: #d5dada;
+  color: #000000;
+}
+
+a {
+  color: black;
+}
+
+.btn {
+  background-color: #000000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0000006f;
+}
+
+.btn:hover:focus {
+  background-color: #575757;
+}
+
+.btn-secondary {
+  background-color: #575757;
+}
+
+.dairy_page {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+.form-check-input:checked {
+  background-color: #d5dada !important;
+  border-color: #b8bebe !important;
+}
+
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(213, 218, 218, 0.25) !important;
+  border-color: #b8bebe !important;
+}
+
+.dropdown-item:active {
+  background-color: #2c3030 !important;
+  color: #fff !important;
+}
+
+.btn:focus,
+.form-control:focus,
+.dropdown-item:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
